@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo1"
+    android:padding="30dp"
+    tools:context=".Registro">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="45dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="29sp"
+        android:textColor="@color/black"
+        android:text="@string/tvRegistro" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="@string/etNombre"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etApellido"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="@string/etApellido"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etRegistroUsuario"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+
+        android:layout_gravity="center"
+        android:hint="@string/etNombreUsuario"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etRegistroContraseña"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="@string/etContraseña"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#9EEF9F"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="@string/btnRegistrar" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#9EEF9F"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="@string/btnLogin" />
+
+</LinearLayout>

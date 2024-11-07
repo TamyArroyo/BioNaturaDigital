@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo1"
+    android:padding="30dp"
+    tools:context=".Carrito">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="250dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="40dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#9EEF9F"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="@string/tvTuCarrito" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="416dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#33357D0D">
+
+                <ImageView
+                    android:id="@+id/imCarrito1"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/producto1" />
+
+                <LinearLayout
+                    android:layout_width="129dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvCarritoProducto1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="@string/tvNombreProducto1" />
+
+                    <TextView
+                        android:id="@+id/tvCantidadProducto1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="2 UD" />
+
+                    <TextView
+                        android:id="@+id/tvPrecioProducto1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="$7.780" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnCarritoProducto1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#A35949"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="@string/btnQuitarProducto" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#33357D0D">
+
+                <ImageView
+                    android:id="@+id/imCarrito2"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/producto2" />
+
+                <LinearLayout
+                    android:layout_width="129dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvCarritoProducto2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="@string/tvNombreProducto2" />
+
+                    <TextView
+                        android:id="@+id/tvCantidadProducto2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="3 UD" />
+
+                    <TextView
+                        android:id="@+id/tvPrecioProducto2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="$7.500" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnCarritoProducto2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#A35949"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="@string/btnQuitarProducto" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#33357D0D">
+
+                <ImageView
+                    android:id="@+id/imCarrito3"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/producto4" />
+
+                <LinearLayout
+                    android:layout_width="129dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvCarritoProducto3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="@string/tvNombreProducto4" />
+
+                    <TextView
+                        android:id="@+id/tvCantidadProducto3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="1 UD" />
+
+                    <TextView
+                        android:id="@+id/tvPrecioProducto3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="$3.890" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnCarritoProducto3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/cafeBoton"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="@string/btnQuitarProducto" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#33357D0D">
+
+                <ImageView
+                    android:id="@+id/imCarrito4"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/producto5" />
+
+                <LinearLayout
+                    android:layout_width="129dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvCarritoProducto4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="@string/tvNombreProducto5" />
+
+                    <TextView
+                        android:id="@+id/tvCantidadProducto4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="2 UD" />
+
+                    <TextView
+                        android:id="@+id/tvPrecioProducto4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:text="$6.000" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnCarritoProducto4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/cafeBoton"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="@string/btnQuitarProducto" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/naranjaBoton"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Total : $25.170" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cafeBoton"
+            android:gravity="center"
+            android:text="@string/btnRealizarCompra"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

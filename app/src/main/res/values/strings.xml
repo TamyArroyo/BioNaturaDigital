@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Prueba1</string>
+
+    <!-- textView -->
+    <string name="tvLogin">LOGIN</string>
+    <string name="tvRegistro">Registro</string>
+    <string name="tvTuCarrito">Tu Carrito</string>
+    <string name="tvNombreProducto1">Pera</string>
+    <string name="tvNombreProducto2">Kiwi</string>
+    <string name="tvNombreProducto3">Frutilla</string>
+    <string name="tvNombreProducto4">Manzana</string>
+    <string name="tvNombreProducto5">Zanahoria</string>
+    <string name="tvBienvenida">Bienvenid@</string>
+    <string name="tvNombreUsuario">Nombre Usuario</string>
+    <string name="tvGestionProducto">Gestión Productos</string>
+
+    <!-- editText -->
+    <string name="etUsuario">Usuario</string>
+    <string name="etContraseña">Contraseña</string>
+    <string name="etNombre">Nombre</string>
+    <string name="etApellido">Apellido</string>
+    <string name="etNombreUsuario">Nombre Usuario</string>
+    <string name="etCodigoProducto">Codigo</string>
+    <string name="etNombreProducto">Nombre Producto</string>
+    <string name="etPrecioProducto">Precio</string>
+
+    <!-- Button -->
+    <string name="btnIngresar">Ingresar</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnLogin">Ya tienes una Cuenta?</string>
+    <string name="btnAgregarCarrito">Agregar al carrito</string>
+    <string name="btnQuitarProducto">Quitar Producto</string>
+    <string name="btnRealizarCompra">Realizar Compra</string>
+    <string name="btnCarrito">Carrito</string>
+    <string name="btnVerProductos">Ver todos los Productos</string>
+    <string name="btnIngresarProducto">Ingresar</string>
+    <string name="btnBuscarProducto">Buscar</string>
+    <string name="btnModificarProducto">Modificar</string>
+    <string name="btnEliminarProducto">Eliminar</string>
+</resources>
